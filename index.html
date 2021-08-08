@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <div class="head_container flex1">
+      <nav>
+        <i id="burger" class="material-icons" onclick="burger()">menu</i>
+        <i id="quit" class="material-icons" onclick="quit()">clear</i>
+        <div id="links">
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Service</a>
+          <a href="">Blog</a>
+          <a href="">Contact</a>
+        </div>
+      </nav>
+      <div class="icon">
+        <img src="https://img.icons8.com/carbon-copy/100/ffffff/cargo-ship.png" />
+      </div>
+      <div class="brand">
+        <h2>LOGO</h2>
+      </div>
+    </div>
+  </header>
+  <script>
+    function burger() {
+      var burger = document.getElementById('burger');
+      var links = document.getElementById('links');
+      var quit = document.getElementById('quit');
+      burger.style.padding = '10px 10px 200vw 200vw';
+      links.style.display = 'flex';
+      quit.style.display = 'inline';
+    }
+
+    function quit() {
+      var burger = document.getElementById('burger');
+      var links = document.getElementById('links');
+      var quit = document.getElementById('quit');
+      burger.style.padding = '10px 10px 10px 10px';
+      links.style.display = 'none';
+      quit.style.display = 'none';
+    }
+  </script>
+
+
+  <section class="home center background">
+    <div class="container">
+      <div class="text">
+        <h1>book now <br> ship travel agency</h1>
+        <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <button>book now</button>
+      </div>
+    </div>
+    <div class="img">
+      <img src="image/h1.png" alt="">
+    </div>
+  </section>
+
+
+  <section class="book center">
+    <div class="container">
+      <div class="heading">
+        <h2>Book now your ticket</h2>
+        <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+
+      <form>
+        <div class="items grid">
+          <div class="input">
+            <label>Where</label>
+            <input type="text" placeholder="xxxxxxx">
+          </div>
+          <div class="input">
+            <label>to</label>
+            <input type="text" placeholder="xxxxxxx">
+          </div>
+          <div class="input">
+            <label>email</label>
+            <input type="text" placeholder="xxxxxxx">
+          </div>
+          <div class="input">
+            <label>date</label>
+            <input type="text" placeholder="xxxxxxx">
+          </div>
+          <div class="input">
+            <label>price</label>
+            <input type="text" placeholder="xxxxxxx">
+          </div>
+          <div class="input">
+            <label>phone number</label>
+            <input type="text" placeholder="xxxxxxx">
+          </div>
+        </div>
+        <button class="btn1">book now</button>
+      </form>
+    </div>
+  </section>
+
+
+  <section class="packages">
+    <div class="container">
+      <div class="heading">
+        <h2>packages</h2>
+        <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+
+      <div class="items grid center mtop">
+        <div class="box">
+          <div class="img">
+            <img src="image/p.png" alt="">
+          </div>
+          <h3>America</h3>
+          <div class="price">
+            <h4>S/2000</h4>
+            <p> Excepteur sint occaecat cupidatat non proident.</p>
+          </div>
+          <button class="btn">book now</button>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/p.png" alt="">
+          </div>
+          <h3>America</h3>
+          <div class="price">
+            <h4>S/2000</h4>
+            <p> Excepteur sint occaecat cupidatat non proident.</p>
+          </div>
+          <button class="btn">book now</button>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/p.png" alt="">
+          </div>
+          <h3>America</h3>
+          <div class="price">
+            <h4>S/2000</h4>
+            <p> Excepteur sint occaecat cupidatat non proident.</p>
+          </div>
+          <button class="btn">book now</button>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/p.png" alt="">
+          </div>
+          <h3>America</h3>
+          <div class="price">
+            <h4>S/2000</h4>
+            <p> Excepteur sint occaecat cupidatat non proident.</p>
+          </div>
+          <button class="btn">book now</button>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/p.png" alt="">
+          </div>
+          <h3>America</h3>
+          <div class="price">
+            <h4>S/2000</h4>
+            <p> Excepteur sint occaecat cupidatat non proident.</p>
+          </div>
+          <button class="btn">book now</button>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/p.png" alt="">
+          </div>
+          <h3>America</h3>
+          <div class="price">
+            <h4>S/2000</h4>
+            <p> Excepteur sint occaecat cupidatat non proident.</p>
+          </div>
+          <button class="btn">book now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class=" about top center">
+    <div class="container">
+      <div class="heading">
+        <h2>About Us</h2>
+        <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+    <div class="img">
+      <img src="image/h2.png" alt="">
+    </div>
+  </section>
+
+
+  <section class="customer">
+    <div class="container">
+      <div class="heading">
+        <h2>what is says our customer</h2>
+        <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+
+      <div class="items flex">
+        <div class="box">
+          <div class="img flex">
+            <img src="image/c1.jpg" alt="">
+            <div class="text">
+              <h3>Alex Ander</h3>
+              <label>Tourist</label>
+            </div>
+          </div>
+          <div class="para">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img flex">
+            <img src="image/c2.jpg" alt="">
+            <div class="text">
+              <h3>Alex Ander</h3>
+              <label>Tourist</label>
+            </div>
+          </div>
+          <div class="para">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+      <div class="dots center">
+        <button class="btn1"> <i class="fa fa-long-arrow-left"></i> </button>
+        <button class="btn1"> <i class="fa fa-long-arrow-right"></i> </button>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="top">
+    <div class="container ">
+      <div class="content  grid ">
+        <div class="box">
+          <h3>About Us</h3>
+          <p> Aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="box center">
+          <h3>Information</h3>
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-youtube"></i>
+        </div>
+        <div class="box center">
+          <h3>Helpful link</h3>
+          <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>service</li>
+            <li>blog</li>
+            <li>contact us</li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>Supported</h3>
+          <div class="contact">
+            <div class="item">
+              <i class="fa fa-map"></i>
+              <label>Call Now +98123645</label>
+            </div>
+            <div class="item">
+              <i class="fa fa-phone"></i>
+              <label>Nepal,Kathmandu</label>
+            </div>
+            <div class="item">
+              <i class="fa fa-envelope"></i>
+              <label>youremail@gmail.com</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="legal">Copyright (c) 2021 Copyright Holder All Rights Reserved | This template is made by <i class="fa fa-heart"></i> Dot Studio</p>
+    </div>
+  </footer>
+</body>
+
+</html>
